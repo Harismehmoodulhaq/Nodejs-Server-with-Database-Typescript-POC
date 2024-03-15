@@ -54,7 +54,7 @@ module.exports = {
 ## Step 3 :
 Run this command <br>
 ```bash
-npx sequelize-cli model:generate --name User --attributes id:number,first_name:string,last_name:string,email:string
+npx sequelize-cli model:generate --name User --attributes first_name:string,last_name:string,email:string
 ```
 
 This command is using the Sequelize CLI (`sequelize-cli`) to generate a Sequelize model file for a "User" entity with specified attributes. Let's break down the command:
