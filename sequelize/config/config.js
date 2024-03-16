@@ -3,7 +3,7 @@ module.exports = {
     username: 'postgres',
     password: 'admin123',
     database: 'learning_sequelize',
-    host: '0.0.0.0',
+    host: '0.0.0.0', //Your Database Host like localhost,
     dialect: 'postgres',
   },
   test: {

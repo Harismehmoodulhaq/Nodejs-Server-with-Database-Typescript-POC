@@ -9,6 +9,11 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
+      // npx sequelize-cli model:generate --name User --attributes id:number,first_name:string,last_name:string,email:string
+      // In command line we add id but we removed it here
+      // id: {
+      //   type: Sequelize.NUMBER
+      // },
       first_name: {
         type: Sequelize.STRING
       },
@@ -18,11 +23,11 @@ module.exports = {
       email: {
         type: Sequelize.STRING
       },
-      created_at: {
+      createdAt: {
         allowNull: false,
         type: Sequelize.DATE
       },
-      updated_at: {
+      updatedAt: {
         allowNull: false,
         type: Sequelize.DATE
       }
